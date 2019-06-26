@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="706px" height="706px" viewBox="0 0 706 706" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F9C80C" offset="0%"></stop>
+            <stop stop-color="#BF087D" offset="100%"></stop>
+        </linearGradient>
+        <path d="M929.130809,717 L510.869191,717 C502.176097,710.078289 493.833924,702.734629 485.873662,695.000011 L954.126349,695 L954.126338,695.000011 C946.166076,702.734629 937.823903,710.078289 929.130809,717 Z M834.461707,770 C798.737115,782.942824 760.192703,790 720,790 C679.807297,790 641.262885,782.942824 605.538293,770 L834.461707,770 Z M984.682658,661 L455.317342,661 C449.995894,654.205252 444.930408,647.200416 440.135396,640.000004 L999.864628,640 L999.864604,640.000004 C995.069592,647.200416 990.004106,654.205252 984.682658,661 Z M1017.66741,610 L422.332586,610 C414.600668,595.276869 407.929071,579.909707 402.419282,564 L1037.58072,564 C1032.07093,579.909707 1025.39933,595.276869 1017.66741,610 Z M1043.5315,545 L396.468497,545 C392.900556,532.288935 390.061555,519.272953 387.99944,506 L1052.00056,506 C1049.93845,519.272953 1047.09944,532.288935 1043.5315,545 Z M386.239117,493 C384.760178,480.20516 384,467.191355 384,454 C384,268.432324 534.432324,118 720,118 C905.567676,118 1056,268.432324 1056,454 C1056,467.191355 1055.23982,480.20516 1053.76088,493 L386.239117,493 Z" id="path-2"></path>
+        <filter x="-3.9%" y="-4.0%" width="107.7%" height="107.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="-1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.631501311   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-367.000000, -100.000000)">
+            <g id="Combined-Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>
