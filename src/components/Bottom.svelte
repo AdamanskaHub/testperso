@@ -18,14 +18,14 @@
     justify-content: center;
   }
   .title__txt b {
-    letter-spacing: 0.15em;
+    letter-spacing: 0.08em;
     font: 4.618em "Fredoka One", "PT Mono", sans-serif;
-    color: #fbd0eb;
+    color: rgb(255, 161, 193);
     text-shadow: 0 5px 30px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ea1059,
       0 0 0.1em #ea1059, 0 10px 3px #000;
   }
   .title__txt b .blink {
-    animation: blink linear infinite 4s;
+    animation: blink linear infinite 8s;
   }
   @keyframes blink {
     78% {
@@ -78,7 +78,41 @@
       text-shadow: inherit;
     }
   }
+  .blinklittle {
+    animation: blinklittle linear infinite 5s;
+  }
+  @keyframes blinklittle {
+    56% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    57% {
+      color: #333;
+    }
+    58% {
+      text-shadow: none;
+    }
+    59% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+  }
   .content {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'PT Mono', Courier, monospace;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 6.618em 0;
+  }
+  .content p {
+    max-width:800px;
+    width: 50vw;
+    text-align: center;
+    line-height: 1.2em;
+
   }
   .contact {
     display: flex;
@@ -90,6 +124,11 @@
     -webkit-box-shadow: -1px -1px 14px 3px rgba(234, 16, 89, 1);
     -moz-box-shadow: -1px -1px 14px 3px rgba(234, 16, 89, 1);
     box-shadow: -1px -1px 14px 3px rgba(234, 16, 89, 1);
+    -webkit-z-index: 3;
+    -moz-z-index: 3;
+    -ms-z-index: 3;
+    -o-z-index: 3;
+    z-index: 3;
   }
   .contact__buttonalt {
     cursor: pointer;
@@ -105,6 +144,7 @@
     text-shadow: 0 5px 30px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ea1059,
       0 0 0.1em #ea1059, 0 10px 3px #000;
     transition: border 1s, color 1.5s;
+    z-index: 3;
   }
   .contact__buttonalt:hover {
     cursor: pointer;
@@ -123,7 +163,6 @@
     bottom: 0;
     left: 0;
     display: flex;
-    padding: 0 10vw;
     justify-content: space-between;
     width: 100%;
   }
@@ -134,12 +173,16 @@
     } */
   }
   .palms__left {
-    padding-left: 5vw;
+    padding-right: 5vw;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
   }
   .palms__right {
     padding-right: 5vw;
+  }
+  a {
+    text-decoration: none;
+    cursor:pointer;
   }
 </style>
 
@@ -147,22 +190,36 @@
   <div class="title">
     <div class="title__txt">
       <b>
-        <span>
-          A
-          <span class="blink">B</span>
-          OU
-          <span class="blinkless">T</span>
-        </span>
+        <span>A</span>
+        <span class="blink">B</span>
+        <span>O</span>
+        <span>U</span>
+        <!-- <span class="blinkless">T</span> -->
+        <span>T</span>
       </b>
     </div>
   </div>
 
-  <div class="content" />
+  <div class="content">
+    <p>
+      I've worked many years as a UX/UI designer in startups and big companies.
+      I taught it too. I've done everything from user research to
+      front-end development, as the sole designer or in a team. I'm at my best
+      in interaction design but I love everybit of the process and can only rest once I know the experience will be enjoyable for the user.
+    </p>
+    <p>
+      You want to do an app? A platform ? A dashboard ? I can help you, take
+      your idea and make it into what it should be.
+    </p>
+    
+  </div>
 
   <div class="contact">
+  <a href="mailto:adamanska@gmail.com?Subject=Hello">
     <div class="contact__button">
-      <div class="contact__buttonalt">CONTACT</div>
+      <div class="contact__buttonalt">CO<span class="blinklittle">N</span>TACT</div>
     </div>
+    </a>
   </div>
 
   <div class="palms">

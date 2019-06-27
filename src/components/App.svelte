@@ -228,7 +228,7 @@
     </div>
 
     <div class="sunContainer">
-      <img class="sun" src={sun} alt="setting sun"/>
+      <img class="sun" src={sun} alt="setting sun" data-aos="fade-up"/>
     </div>
 
     <img class='first__palm' alt='palm tree' src={palm}/>
@@ -241,8 +241,8 @@
           <span class="back-text glitch">Hello</span>  
         </h3>
         <!-- transition:fade -->
-        <div class="intro__subtext">
-          <h5 class="intro__subtext__txt">
+        <div class="intro__subtext" data-aos="fade-up">
+          <h5 class="intro__subtext__txt " >
             I'm a UX/UI designer & front-end developer based in Switzerland.  
           </h5>
           <!-- <p class="whisper">(I design app or website and code them)</p> -->
