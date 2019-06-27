@@ -1,6 +1,6 @@
 <script>
   import Mid from './Mid.svelte';
-  import Test2 from './Test2.svelte';
+  import Bottom from './Bottom.svelte';
   import sunsvg from './sunsvg.svelte';
 
   let sun = '../../sun.png';
@@ -207,13 +207,6 @@
     margin: 0;
     text-align: center;
   }
-  /* .whisper {
-    margin: 0;
-    font-size: 0.8em;
-    text-align: center;
-  } */
-
-/* 260325   432B57 */
 </style>
 
 <!-- =========== H T M L ========== -->
@@ -253,5 +246,6 @@
   </div>
 
   <Mid />
+  <Bottom />
 
 </div>
