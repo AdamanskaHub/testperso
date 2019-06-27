@@ -10,9 +10,13 @@
 <!-- =========== S T Y L E ========== -->
 <style>
 	@import url('https://fonts.googleapis.com/css?family=PT+Mono|PT+Sans|PT+Sans+Narrow|Permanent+Marker&display=swap');
-  
+
   .theapp {
 		font-family: 'PT Mono', Calibri, sans-serif;
+    overflow-y: scroll;
+    overflow: scroll;
+    height: 100vh;
+    scroll-snap-type: proximity;
   }
   
 	.bloc {
@@ -207,13 +211,16 @@
     margin: 0;
     text-align: center;
   }
+  .section {
+    scroll-snap-align: start;
+  }
 </style>
 
 <!-- =========== H T M L ========== -->
 
 <div class="theapp">
 
-  <div class="bloc first">
+  <div class="bloc first" style='scroll-snap-align: start;'>
     <div class="menu">
       <a href=".work" class='menu__text'>Work</a>
       <a href=".about" class='menu__text'>About</a>
@@ -245,7 +252,10 @@
 
   </div>
 
-  <Mid />
-  <Bottom />
-
+  <div class="section">
+    <Mid />
+  </div>
+  <div class="section">
+    <Bottom />
+  </div>
 </div>

@@ -66,7 +66,7 @@
   @import url('https://fonts.googleapis.com/css?family=PT+Mono|PT+Sans|PT+Sans+Narrow|Permanent+Marker&display=swap');
   .bloc {
 		min-height: 100vh;
-		padding: 30px 60px;
+		padding: 10vh 60px 40vh 60px;
 		position: relative;
 	}
 	.second {
@@ -90,7 +90,7 @@
     margin-top: 4.618em;
     color: rgba(255,255,254,.3);
     font-style: italic;
-    margin-bottom: -1.618em;
+    margin-bottom: 1.618em;
   }
 
   .stars {

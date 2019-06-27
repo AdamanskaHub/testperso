@@ -58,7 +58,7 @@
   }
   .no-margin {
     margin-top: 10px;
-    margin-bottom: 2.618em;
+    padding-bottom: 6.618em;
   }
 
 </style>
