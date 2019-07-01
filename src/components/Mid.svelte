@@ -28,7 +28,7 @@
     <WorkCombo 
       image={'../../kid.jpg'}
       txtshort={"Front-end, design concept to final design."}
-      txtlong={'A mobility analysis dashboard to help companies to see '}
+      txtlong={'A mobility analysis dashboard to help companies to see the flow of people through a geographic area.'}
       modaltitle={'Kido dynamics'}
       modaltxt={'Mobility analysis dashboard'}
       bigimage={'../../kid.jpg'}
@@ -50,7 +50,7 @@
     <WorkCombo 
       image={'../../minikid2.png'}
       txtshort={"Front-end, design concept to final design."}
-      txtlong={'Kido dynamics website.'}
+      txtlong={'Kido dynamics website, a company doing mobility analysis.'}
       modaltitle={'Kido Website'}
       modaltxt={'Kido dynamics website'}
       bigimage={'../../Segments.jpg'}
@@ -66,8 +66,8 @@
   @import url('https://fonts.googleapis.com/css?family=PT+Mono|PT+Sans|PT+Sans+Narrow|Permanent+Marker&display=swap');
   .bloc {
 		min-height: 100vh;
-		padding: 10vh 60px 20vh 60px;
-		position: relative;
+		padding: 10vh 60px 40vh 60px;
+    position: relative;
 	}
 	.second {
     background-image: radial-gradient(#B7289B,  #5B0060,  #1B1E3F);
@@ -112,5 +112,7 @@
   .over-stars {
     z-index: 5000;
   }
+
+  
 
 </style>

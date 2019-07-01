@@ -214,6 +214,52 @@
   .section {
     scroll-snap-align: start;
   }
+  .imggrp {
+    bottom: 0;
+    position: relative;
+    height: 20vh; 
+    /* 410px; */
+    margin-top: -20vh;
+  }
+  .sea {
+    width: 100%;
+    height: 68px;
+    position: absolute;
+    background-color: #1A0E31;
+    z-index: 87;
+    bottom: 0;
+  }
+  .road {
+    z-index: 90;
+    position: absolute;
+    background-color: #1F1337;
+    width: 100%;
+    height: 20px;
+    bottom: 68px;
+  }
+  .mountains {
+    z-index: 89;
+    background-repeat: repeat-y;
+    background-image: url('../../public/mountains.png');
+    position: absolute;
+    bottom: 60px;
+  }
+  .settingsun {
+    z-index: 84;
+    position: absolute;
+    left: 50%;
+    margin-left: -17vh;
+    top: -20vh;
+    width: 30vh;
+  }
+  .buildings {
+    z-index: 91;
+    position: absolute;
+    left: 10vw;
+    bottom: 72px;
+    height: auto;
+    width: 60vw;
+  }
 </style>
 
 <!-- =========== H T M L ========== -->
@@ -254,6 +300,13 @@
 
   <div class="section">
     <Mid />
+    <div class="imggrp">
+      <img class="buildings" src='../../buildings.png' alt='buildings'/>
+      <img class="settingsun" src='../../settingsun.png' alt='setting sun'/>
+      <div class="mountains" />
+      <div class="road"/>
+      <div class="sea"/>
+    </div>
   </div>
   <div class="section">
     <Bottom />

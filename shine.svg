@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="636px" height="321px" viewBox="0 0 636 321" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="46.1948129%" gradientTransform="translate(0.500000,0.500000),scale(0.860000,1.000000),rotate(90.000000),translate(-0.500000,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#EB1797" offset="0%"></stop>
+            <stop stop-color="#E71D98" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.404947917">
+        <g id="Desktop-HD" transform="translate(-402.000000, -4090.000000)" fill="url(#radialGradient-1)">
+            <ellipse id="Oval" cx="720" cy="4408" rx="400" ry="344"></ellipse>
+        </g>
+    </g>
+</svg>
