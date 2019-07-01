@@ -16,7 +16,7 @@
     overflow-y: scroll;
     overflow: scroll;
     height: 100vh;
-    scroll-snap-type: proximity;
+    scroll-snap-type: y proximity;
   }
   
 	.bloc {
@@ -220,7 +220,7 @@
 
 <div class="theapp">
 
-  <div class="bloc first" style='scroll-snap-align: start;'>
+  <div class="bloc first section">
     <div class="menu">
       <a href=".work" class='menu__text'>Work</a>
       <a href=".about" class='menu__text'>About</a>

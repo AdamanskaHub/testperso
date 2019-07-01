@@ -5,15 +5,13 @@
   export let image, txtshort, txtlong, modaltitle, modaltxt, bigimagealt, bigimage;
 </script>
     <div class="second__port">
-      <div on:click='{() => showModal = true}' class="img-wrapper" >
-        <img src={image} alt="drinkotech" class="second__port__img"
-        />
-          <!-- <div class="glow-wrap">
-            <i class="glow"></i>
-          </div> -->
-      </div>
       <p class="second__port__txt" >{txtshort}</p>
       <p class="second__port__txt no-margin">{txtlong}</p>
+      <div on:click='{() => showModal = true}' class="img-wrapper" >
+        <img src={image} alt="drinkotech" class="second__port__img"
+      />
+    </div>
+      
     </div>
 
     <!-- M O D A L -->
@@ -44,7 +42,8 @@
     overflow-y: hidden;
     overflow-x: hidden;
     display: flex;
-    margin-top: 4.618em;
+    margin-bottom: 4.618em;
+    margin-top: 1em;
     -webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.4);
     -moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.4);
     box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.4);
@@ -55,11 +54,12 @@
     z-index: 45;
   }
   .second__port__txt {
-    margin: 1.618em 0 0 0;
+    margin: 0;
+    padding-top: 6.618em;
   }
   .no-margin {
     margin-top: 10px;
-    padding-bottom: 6.618em;
+    padding-top: 0;
   }
 
 </style>

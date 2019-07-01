@@ -66,7 +66,7 @@
   @import url('https://fonts.googleapis.com/css?family=PT+Mono|PT+Sans|PT+Sans+Narrow|Permanent+Marker&display=swap');
   .bloc {
 		min-height: 100vh;
-		padding: 10vh 60px 40vh 60px;
+		padding: 10vh 60px 20vh 60px;
 		position: relative;
 	}
 	.second {
