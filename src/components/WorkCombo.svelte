@@ -47,6 +47,13 @@
     -webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.4);
     -moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.4);
     box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.4);
+    transition: .5s;
+  }
+  @media  only screen and (max-width: 800px){
+    .img-wrapper{
+      max-height: 40vw;
+      margin-bottom: 2.618em;
+    }
   }
   .second__port__img {
     max-width: 100%;
@@ -56,6 +63,11 @@
   .second__port__txt {
     margin: 0;
     padding-top: 6.618em;
+  }
+  @media  only screen and (max-width: 800px){
+    .second__port__txt{
+      padding-top: 2.618em;
+    }
   }
   .no-margin {
     margin-top: 10px;

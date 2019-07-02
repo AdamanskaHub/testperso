@@ -66,12 +66,22 @@
   @import url('https://fonts.googleapis.com/css?family=PT+Mono|PT+Sans|PT+Sans+Narrow|Permanent+Marker&display=swap');
   .bloc {
 		min-height: 100vh;
-		padding: 10vh 60px 40vh 60px;
+		padding: 10vh 60px 50vh 60px;
     position: relative;
 	}
 	.second {
     background-image: radial-gradient(#B7289B,  #5B0060,  #1B1E3F);
     color: rgba(255,255,255,.5);
+    transition: .5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  @media  only screen and (max-width: 800px){
+    .second{
+      padding: 5vh 20px 40vh;
+    }
   }
   .second__title {
     font-family: 'Permanent Marker', sans-serif;
@@ -85,12 +95,14 @@
     font-size: 2.618em;
     margin: 10vh 0 0 0;
     padding: 0;
+    text-align: center;
   }
   .whisper {
     margin-top: 4.618em;
     color: rgba(255,255,254,.3);
     font-style: italic;
     margin-bottom: 1.618em;
+    text-align: center;
   }
 
   .stars {
@@ -111,6 +123,7 @@
   }
   .over-stars {
     z-index: 5000;
+    max-width: 800px;
   }
 
   

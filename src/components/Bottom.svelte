@@ -9,8 +9,14 @@
   .bloc {
     background-image: linear-gradient(#260325, #432b57);
     min-height: 100vh;
-    padding: 20vh 60px;
+    padding: 20vh 60px 60vh;
     position: relative;
+    transform: .5s;
+  }
+  @media  only screen and (max-width: 800px){
+    .bloc{
+      padding: 60px 20px 210px;
+    }
   }
   .title {
     margin: 10vh 0 0 0;
@@ -23,6 +29,13 @@
     color: rgb(255, 161, 193);
     text-shadow: 0 5px 30px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ea1059,
       0 0 0.1em #ea1059, 0 10px 3px #000;
+    transition: .5s;
+  }
+  @media  only screen and (max-width: 600px){
+    .title__txt b{
+      letter-spacing: 0.06em;
+      font-size: 3.618em;
+    }
   }
   .title__txt b .blink {
     animation: blink linear infinite 8s;
@@ -107,12 +120,22 @@
     flex-direction: column;
     margin: 6.618em 0;
   }
+  @media  only screen and (max-width: 600px){
+    .content{
+      margin: 3.618em 0;
+    }
+  }
   .content p {
     max-width:800px;
     width: 50vw;
     text-align: center;
     line-height: 1.2em;
-
+    transition: .5s;
+  }
+  @media  only screen and (max-width: 800px){
+    .content p{
+      width: 100%;
+    }
   }
   .contact {
     display: flex;
@@ -143,8 +166,15 @@
     color: #f06c98;
     text-shadow: 0 5px 30px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ea1059,
       0 0 0.1em #ea1059, 0 10px 3px #000;
-    transition: border 1s, color 1.5s;
+    transition: border 1s, color 1.5s , font-size .5s; 
     z-index: 3;
+    text-align: center;
+  }
+  @media  only screen and (max-width: 800px){
+    .contact__buttonalt{
+      font-size: 2.618em;
+      text-align: center;
+    }
   }
   .contact__buttonalt:hover {
     cursor: pointer;
@@ -158,6 +188,12 @@
     text-shadow: 0 5px 30px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ea1059,
       0 0 0.1em #ea1059, 0 10px 3px #000;
   }
+  @media  only screen and (max-width: 800px){
+    .contact__buttonalt:hover{
+      font-size: 2.618em;
+      text-align: center;
+    }
+  }
   .palms {
     position: absolute;
     bottom: 0;
@@ -167,22 +203,49 @@
     width: 100%;
   }
   @media only screen and (max-width: 800px) {
-    /* .first__palm {
-      right:5vw;
-      width: 33%;
-    } */
+    .palms {
+      display: inherit;
+    }
   }
   .palms__left {
     padding-right: 5vw;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
+    transition: .5s;
+  }
+  @media (min-width: 600px) and (max-width: 800px) {
+    .palms__left{
+      right:5vw;
+      width: 30%;
+    }
+    .palms__right{
+      width: 30%;
+      float: right;
+    }
+  }
+  @media only screen and (max-width: 599px) {
+    .palms__left{
+      right:5vw;
+      width: 40%;
+    }
+    .palms__right{
+      width: 40%;
+      float: right;
+    }
   }
   .palms__right {
     padding-right: 5vw;
+    transition: .5s;
   }
   a {
     text-decoration: none;
     cursor:pointer;
+    transition: .5s;
+  }
+  @media  only screen and (max-width: 600px){
+    a{
+      width: 100%;
+    }
   }
 </style>
 

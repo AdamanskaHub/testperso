@@ -22,8 +22,14 @@
 	.bloc {
 		min-height: 100vh;
 		padding: 30px 60px;
-		position: relative;
-	}
+    position: relative;
+    transition: padding .5s;
+  }
+  @media  only screen and (max-width: 800px){
+    .bloc{
+      padding: 10px;
+    }
+  }
 	.first {
 		background-image: linear-gradient(#160E18, #530250);
   }
@@ -33,13 +39,13 @@
 		top: 20vh;
 		width: 46vw;
     height: 46vh; 
+    transition: width .5s;
   }
   @media only screen and (max-width: 800px) {
     .sunContainer {
-      left: 17vw;
+      left: 7vw;
       top: 15vh;
-      width: 66vw;
-      height: 66vh;
+      width: 86vw;
     }
   }
   .sun {
@@ -49,6 +55,7 @@
     left: 0;
     width: 100%;
   }
+  
   .first__palm {
     position: absolute;
     bottom: 0;
@@ -67,7 +74,8 @@
   }
   
 	.menu {
-		display: flex;
+    display: none;
+		/* display: flex; */
     justify-content: flex-end;
     font-family: 'Permanent Marker', sans-serif;
 	}
@@ -205,7 +213,14 @@
     background-color: rgba(31,12,32,0.8);
     color: #fff;
     max-width: 30vw;
+    transition: width 2s;
   }
+  @media  only screen and (max-width: 800px){
+    .intro__subtext{
+      max-width: 60vw;
+    }
+  }
+  
   .intro__subtext__txt {
     font-size: 1.3em;
     margin: 0;
