@@ -92,7 +92,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 2.618em;
+    font-size: 4.618em;
     margin: 10vh 0 0 0;
     padding: 0;
     text-align: center;

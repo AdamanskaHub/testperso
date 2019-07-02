@@ -9,7 +9,7 @@
   .bloc {
     background-image: linear-gradient(#260325, #432b57);
     min-height: 100vh;
-    padding: 20vh 60px 60vh;
+    padding: 10vh 60px 60vh;
     position: relative;
     transform: .5s;
   }
