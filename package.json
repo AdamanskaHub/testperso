@@ -33,6 +33,6 @@
   "author": "EmilTholin",
   "license": "MIT",
   "dependencies": {
-    "aos": "^3.0.0-beta.6"
+    "jquery": "^3.4.1"
   }
 }

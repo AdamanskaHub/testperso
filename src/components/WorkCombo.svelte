@@ -2,14 +2,13 @@
 <script>
   import Modal from './Modal.svelte';
   let showModal = false;
-  export let image, txtshort, txtlong, modaltitle, modaltxt, bigimagealt, bigimage;
+  export let image, txtshort, txtlong, modaltitle, modaltxt, bigimagealt, bigimage, cssss;
 </script>
     <div class="second__port">
       <p class="second__port__txt" >{txtshort}</p>
-      <p class="second__port__txt no-margin">{txtlong}</p>
+      <p class="second__port__txt no-margin "  >{txtlong}</p>
       <div on:click='{() => showModal = true}' class="img-wrapper" >
-        <img src={image} alt="drinkotech" class="second__port__img"
-      />
+        <img src={image} alt="drinkotech" class="second__port__img" />
     </div>
       
     </div>
