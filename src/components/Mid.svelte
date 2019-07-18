@@ -16,8 +16,8 @@
     <!-- D R I N K O-->
     <WorkCombo 
       image={'../../drinko-min.png'}
-      txtshort={"Front-end, design concept to final design."}
-      txtlong={'A challenging project dashboard for bar manager, personel and suppliers.'}
+      txtshort={"Front-end with React & design concept to final design."}
+      txtlong={'A challenging project of a dashboard for bar managers, personel and suppliers. The website also has a companion app.'}
       modaltitle={'Drinkotec'}
       modaltxt={'Bar management dashboard'}
       bigimage={'../../drinko-big.png'}
@@ -27,7 +27,7 @@
     <!-- Kid-->
     <WorkCombo 
       image={'../../kid.jpg'}
-      txtshort={"Front-end, design concept to final design."}
+      txtshort={"Front-end with React & creation of the brand identity as well as that website from start to finish."}
       txtlong={'A mobility analysis dashboard to help companies to see the flow of people through a geographic area.'}
       modaltitle={'Kido dynamics'}
       modaltxt={'Mobility analysis dashboard'}
@@ -38,8 +38,8 @@
     <!-- U C H E C K-->
     <WorkCombo 
       image={'../../ucheck.png'}
-      txtshort={"Front-end, design concept to final design."}
-      txtlong={'A social platform to fight fake news. The project won a Google DNI.'}
+      txtshort={"Front-end with React/Redux, from idea to live webapp."}
+      txtlong={'A social platform to fight fake news. The project won Google DNI.'}
       modaltitle={'UCheck'}
       modaltxt={'To see more please contact me'}
       bigimage={'../../ucheck.png'}

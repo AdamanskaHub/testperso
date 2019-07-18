@@ -266,12 +266,12 @@
   <div class="content">
     <p>
       I've worked many years as a UX/UI designer in startups and big companies.
-      I taught it too. I've done everything from user research to
+      I taught design too. I've done everything from user research to
       front-end development, as the sole designer or in a team. I'm at my best
       in interaction design but I love everybit of the process and can only rest once I know the experience will be enjoyable for the user.
     </p>
     <p>
-      You want to do an app? A platform ? A dashboard ? I can help you, take
+      You want to do an app? A platform? A dashboard? I can help you, take
       your idea and make it into what it should be.
     </p>
     

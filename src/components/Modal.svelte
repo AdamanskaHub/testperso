@@ -24,14 +24,15 @@
 		max-height: calc(100vh - 4em);
 		overflow: auto;
 		transform: translate(-50%,-50%);
-		/* padding: 1em; */
+		padding: 1em;
 		border-radius: 0.2em;
-		background: -webkit-gradient(linear, left top, right top, from(#f8c40e75), to(#c00a7d78));
+		/* background: -webkit-gradient(linear, left top, right top, from(#f8c40e75), to(#c00a7d78));
 		background: -webkit-linear-gradient(left, #f8c40e75, #c00a7d78);
 		background: -o-linear-gradient(left, #f8c40e75, #c00a7d78);
-		background: linear-gradient(90deg, rgba(248, 196, 14, 0.6705882352941176), rgba(192, 10, 125, 0.79));
+		background: linear-gradient(90deg, rgba(248, 196, 14, 0.6705882352941176), rgba(192, 10, 125, 0.79)); */
+		background-color: #1c0d1d;
 		z-index: 91;
-		color: #1c0d1d;
+		color: #fff;
 	}
 	
 
