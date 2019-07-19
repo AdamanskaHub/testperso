@@ -72,9 +72,9 @@
       text-shadow: inherit;
     }
   }
-  .title__txt b .blinkless {
+  /* .title__txt b .blinkless {
     animation: blinkless linear infinite 3s;
-  }
+  } */
   @keyframes blinkless {
     34% {
       color: inherit;
